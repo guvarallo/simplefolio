@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "engines": {
-    "node": "10.x"
+    "node": "10.x",
+    "npm": "6.x"
   },
   "main": "index.js",
   "scripts": {
