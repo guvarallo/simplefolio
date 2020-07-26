@@ -18,6 +18,7 @@
     clip-path: none;
   }
 
+
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;
@@ -76,4 +77,14 @@
       }
     }
   }
+}
+
+.thumb {
+  transition: transform .7s, filter .7s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.thumb:hover {
+  filter: grayscale(0);
+  transform: scale(1.15) rotate(-5deg);
 }
