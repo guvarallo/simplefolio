@@ -9,8 +9,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js",
-    "heroku-postbuild": "parcel build template.html"
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
